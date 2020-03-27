@@ -1,0 +1,209 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+.left-bar-werper {
+  width: 100px;
+  height: 100%;
+  background-color: #1d2531;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+.left-bar-werper .top-nav {
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  margin-top: 20px;
+}
+.left-bar-werper .top-nav li {
+  margin-bottom: 20px;
+}
+.left-bar-werper .top-nav li a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  position: relative;
+}
+.left-bar-werper .top-nav li a img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.left-bar-werper .top-nav li:nth-child(1) {
+  background-color: #299ef6;
+  border-radius: 50%;
+}
+.left-bar-werper .top-nav li:nth-child(2) {
+  background-color: #9988e4;
+  border-radius: 50%;
+}
+.left-bar-werper .top-nav li:nth-child(3) {
+  background-color: #f15035;
+  border-radius: 50%;
+}
+.left-bar-werper .top-nav li:nth-child(4) {
+  background-image: url('../img/12_15.png');
+  border-radius: 50%;
+}
+.left-bar-werper .bottom-set {
+  position: absolute;
+  bottom: 20px;
+}
+.left-bar-werper .bottom-set li {
+  float: left;
+  margin-left: 20px;
+}
+.menu-werpper {
+  width: 250px;
+  height: 100%;
+  background-color: #222c3c;
+  float: left;
+  padding: 0 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+.menu-werpper ul {
+  padding: 25px 0;
+}
+.menu-werpper ul li:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  color: #5b6779;
+  margin-bottom: 25px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.menu-werpper ul li:last-child {
+  margin-bottom: 0;
+}
+.menu-werpper .menu {
+  border-bottom: 1px solid #2a3547;
+}
+.menu-werpper .menu li {
+  margin-bottom: 20px;
+}
+.menu-werpper .menu li a {
+  color: #b7c0cd;
+}
+.menu-werpper .product {
+  border-bottom: 1px solid #2a3547;
+}
+.menu-werpper .product li {
+  margin-bottom: 20px;
+}
+.menu-werpper .product li i {
+  margin-right: 6px;
+}
+.menu-werpper .product li a {
+  color: #b7c0cd;
+  font-size: 14px;
+}
+.menu-werpper .das li {
+  margin-bottom: 20px;
+}
+.menu-werpper .das li a {
+  color: #b7c0cd;
+}
+.menu-werpper .last-bottom {
+  position: absolute;
+  bottom: 20px;
+  padding-bottom: 10px;
+}
+.menu-werpper .last-bottom .one-box span {
+  margin-right: 30px;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 14px;
+}
+.menu-werpper .last-bottom .two-box {
+  height: 4px;
+  width: 190px;
+  background-color: #2d3848;
+  margin-top: 16px;
+  border-radius: 10px;
+}
+.menu-werpper .last-bottom .two-box div {
+  height: 4px;
+  width: 40px;
+  background-color: #8c72e5;
+}
+.title-werpper {
+  width: 1570px;
+  height: 80px;
+  border-bottom: 1px solid #e6e9ec;
+  position: relative;
+  left: 350px;
+}
+.title-werpper .title-bar {
+  width: 96%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.title-werpper .title-bar .left-name {
+  position: absolute;
+  top: 25px;
+}
+.title-werpper .title-bar .left-name span {
+  font-size: 24px;
+  color: #354052;
+}
+.title-werpper .title-bar .right-username {
+  float: right;
+}
+.title-werpper .title-bar .right-username div {
+  float: left;
+}
+.title-werpper .title-bar .right-username .face {
+  position: absolute;
+  right: 174px;
+}
+.title-werpper .title-bar .right-username .face a {
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin: 15px 0;
+  background-image: url(../img/face.png);
+  position: relative;
+}
+.title-werpper .title-bar .right-username .face a img {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+}
+.title-werpper .title-bar .right-username .adress {
+  margin-top: 15px;
+  right: 70px;
+  position: absolute;
+}
+.title-werpper .title-bar .right-username .adress div:nth-child(1) {
+  color: #2399f1;
+  font-size: 16px;
+}
+.title-werpper .title-bar .right-username .adress div:nth-child(2) {
+  color: #bababa;
+  font-size: 14px;
+}
+.title-werpper .title-bar .right-username .adress div {
+  margin-top: 5px;
+  float: none;
+}
+.title-werpper .title-bar .right-username .jt {
+  margin-top: 30px;
+  position: absolute;
+  right: 30px;
+}
+/*# sourceMappingURL=./index.css.map */
