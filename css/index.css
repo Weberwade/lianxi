@@ -206,4 +206,96 @@ a {
   position: absolute;
   right: 30px;
 }
+.left-message {
+  width: 399px;
+  height: 100%;
+  position: absolute;
+  left: 350px;
+  border-right: 1px solid #e6e9ec;
+  overflow: auto;
+}
+.left-message .search-werpper {
+  padding: 20px 30px;
+  border-bottom: 1px solid #e6e9ec;
+}
+.left-message .search-werpper .search {
+  width: 340px;
+  height: 35px;
+}
+.left-message .search-werpper .search input {
+  width: 290px;
+  height: 35px;
+  box-sizing: border-box;
+  margin: 0;
+  float: left;
+  border: 1px solid #e6e9ec;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.left-message .search-werpper .search button {
+  width: 50px;
+  height: 35px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #e6e9ec;
+  border-left: none;
+  margin: 0;
+  float: left;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.left-message .search-werpper .search button i {
+  font-size: 16px;
+  color: #9fa9ba;
+}
+.left-message .message li:hover {
+  border-left: 6px solid skyblue;
+}
+.left-message .message li:hover .m-username p:nth-child(1) {
+  font-size: 18px;
+  color: blue;
+}
+.left-message .message {
+  overflow: auto;
+}
+.left-message .message .top-m {
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  padding: 0 30px;
+}
+.left-message .message .top-m .touxian {
+  margin-top: 18px;
+  float: left;
+}
+.left-message .message .top-m .m-username {
+  float: left;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.left-message .message .top-m .m-username p:nth-child(1) {
+  margin-bottom: 5px;
+  color: #585d68;
+  font-weight: bold;
+  font-size: 16px;
+}
+.left-message .message .top-m .m-username p:nth-child(2) {
+  color: #9fa9ba;
+  font-size: 14px;
+}
+.left-message .message .top-m .up-time {
+  float: right;
+  margin-top: 30px;
+  color: #7f8fa4;
+  font-weight: bold;
+  font-size: 14px;
+}
+.left-message .message .neirong {
+  color: #636872;
+  font-size: 14px;
+  line-height: 20px;
+  border-bottom: 1px solid #e6e9ec;
+  padding: 0 30px 25px 30px;
+}
 /*# sourceMappingURL=./index.css.map */

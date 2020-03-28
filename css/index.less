@@ -227,3 +227,108 @@ a{
         }
     }
 }
+
+// 设置左侧信息框
+.left-message{
+    width: 399px;
+    height: 100%;
+    position: absolute;
+    left: 350px;
+    border-right: 1px solid #e6e9ec;
+    overflow: auto;
+    // 设置搜索框
+    .search-werpper{
+        padding: 20px 30px;
+        border-bottom: 1px solid #e6e9ec;
+
+        .search{
+            width: 340px;
+            height: 35px;
+            
+            input{
+                width: 290px;
+                height: 35px;
+                box-sizing: border-box;
+                margin: 0;
+                float: left;
+                border: 1px solid #e6e9ec;
+                border-right: none;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+            button{
+                width: 50px;
+                height: 35px;
+                box-sizing: border-box;
+                background-color: #fff;
+                border: 1px solid #e6e9ec;
+                border-left: none;
+                margin: 0;
+                float: left;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                i{
+                    font-size: 16px;
+                    color: #9fa9ba;
+                }
+            }
+        }
+    }
+    // 设置鼠标移入效果
+    .message li:hover{
+        border-left: 6px solid skyblue;
+        .m-username{
+            p:nth-child(1){
+                font-size: 18px;
+                color: blue;
+            }
+        }
+    }
+        .message{
+            overflow: auto;
+            // 设置上部
+            .top-m{
+                width: 100%;
+                height: 80px;
+                box-sizing: border-box;
+                padding: 0 30px;
+                .touxian{
+                    margin-top: 18px;
+                    float: left;
+                }
+                .m-username{
+                    float: left;
+                    margin-top: 25px;
+                    margin-left: 25px;
+                    p:nth-child(1){
+                        margin-bottom: 5px;
+                        color: #585d68;
+                        font-weight: bold;
+                        font-size: 16px;
+                    }
+                    p:nth-child(2){
+                        color: #9fa9ba;
+                        font-size: 14px;
+                    }
+                }
+                .up-time{
+                    float: right;
+                    margin-top: 30px;
+                    color: #7f8fa4;
+                    font-weight: bold;
+                    font-size: 14px;
+                }
+            }
+            //  设置下部分
+            .neirong{
+                color: #636872;
+                font-size: 14px;
+                line-height: 20px;
+                border-bottom: 1px solid #e6e9ec;
+                padding: 0 30px 25px 30px;
+            }
+        }
+    }
+        
+        
+        
